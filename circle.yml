@@ -3,6 +3,8 @@ machine:
     version: 4.8.2
 
 dependencies:
-  post:
+  pre:
     - npm install -g npm@next
+
+  post:
     - npm install --save prop-types 
