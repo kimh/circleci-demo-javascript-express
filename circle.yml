@@ -8,3 +8,8 @@ dependencies:
 
   post:
     - npm install --save prop-types 
+  
+deployment:
+  staging:
+    commands:
+      - echo "Deploying to staging...."
